@@ -1,3 +1,4 @@
 #!/bin/bash
 sudo service apache2 start
 sudo service apache2 restart
+sudo mkdir -r /var/www/html/assets
