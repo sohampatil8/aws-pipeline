@@ -5,6 +5,8 @@ files:
     destination: /var/www/html/
   - source: /components.html
     destination: /var/www/html/
+  - source: /assets/
+    destination: /var/www/html/
 # hooks:
 #   BeforeInstall:
 #     - location: script/install_dependencies
