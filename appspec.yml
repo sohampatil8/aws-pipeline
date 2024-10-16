@@ -1,7 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html /components.html /assets/
+  - source: /index.html
+    destination: /var/www/html/
+  - source: /components.html
+    destination: /var/www/html/
+  - source: /assets/
     destination: /var/www/html/
 hooks:
   BeforeInstall:
